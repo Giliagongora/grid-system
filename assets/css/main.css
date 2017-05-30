@@ -28,3 +28,45 @@ header{
 	top: 40%;
 	left: 35%;
 }
+/* Manipule el fondo de la imagen superior*/
+.background{
+	background-image: url(http://lorempixel.com/output/nature-q-c-640-480-6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+}
+.background .container{
+	background-color: rgba(255,255,255, 0.5);
+	position: relative;
+	height: 40vh;
+}
+/* inserte las imagenes y le di position y tamaño*/
+.uno{
+	
+	position: relative;
+	height: 40vh;
+}
+.dos{
+	
+	position: relative;
+	height: 40vh;
+}
+.tres{
+
+	position: relative;
+	height: 40vh;
+}
+/* manipule el boton para variarlo un poco*/
+.botoncillo{
+	padding: 5px 15px;
+	margin-top: 30px;
+	margin-left: 250px;
+	background-color: #4d2a38;
+	color: #ffeecc;
+
+	border-radius: 41px 41px 41px 41px;
+	-moz-border-radius: 41px 41px 41px 41px;
+	-webkit-border-radius: 41px 41px 41px 41px;
+	border: 0px solid #000000;
+}
